@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle wiki-wiki-wall",
+        "command": "wiki-wiki-wall:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "wiki-wiki-wall",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "wiki-wiki-wall:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "wiki-wiki-wall",
+  "main": "./lib/wiki-wiki-wall",
+  "version": "0.0.1",
+  "author": "Dirk Elmendorf",
+  "description": "This plugin for Atom add support for the WikiWikiWall language and rendering of the SVGS",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "wiki-wiki-wall:toggle"
+  },
+  "repository": "https://github.com/r26D/wiki-wiki-wall-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
