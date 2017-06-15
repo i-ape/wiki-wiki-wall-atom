@@ -1,0 +1,3 @@
+Handle highliting the syntax for the language
+Allow it to execute an external application to generate svgs.
+Make it display svgs inside atom
