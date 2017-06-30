@@ -1,4 +1,8 @@
-Handle highliting the syntax for the language
+
 Allow it to execute an external application to generate svgs.
+  Need to be able to get a list of what files where generated
+  Need to be able to set where they get sent.
 Make it display svgs inside atom
 
+
+It would be nice if the context menu only showed up on the right kind of file.
