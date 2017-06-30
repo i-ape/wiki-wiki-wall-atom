@@ -1,0 +1,36 @@
+'scopeName': 'source.wikiwikiwall'
+'name': 'WikiWikiWall'
+'fileTypes': [
+  'wwwf'
+]
+'patterns': [
+ {
+ 'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))\\b'
+ 'name': 'numeric.wikiwikiwall'
+ }
+ {
+ match: "(#).*$\\n?"
+ name: "punctuation.definition.comment.wikiwikiwall"
+ }
+ {
+  match: "[A-Z][_0-9A-Z]+"
+  name: "alias.wikiwikiwall"
+  }
+  {
+  begin:'"'
+  end:'"'
+  name: "string.wikiwikiwall"
+  }
+   {
+      match: "@"
+      name: "numeric.wikiwikiwall"
+    }
+  {
+    match: "Variable|Shape|Connector|Layout|On|North|South|East|West|Face"
+    name: "keyword.wikiwikiwall"
+  }
+  {
+  match: "Tab|Slot|Hole|Centered|Xval|Yval|Zval|Polygon"
+  name: "modifier.wikiwikiwall"
+  }
+]

@@ -5,7 +5,7 @@
   "author": "Dirk Elmendorf",
   "description": "This plugin for Atom add support for the WikiWikiWall language and rendering of the SVGS",
   "keywords": [],
-  "activationCommands": {
+  "NOnactivationCommands": {
     "atom-workspace": "wiki-wiki-wall:toggle"
   },
   "repository": "https://github.com/r26D/wiki-wiki-wall-atom",
