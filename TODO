@@ -1,8 +1,6 @@
 
-Allow it to execute an external application to generate svgs.
-  Need to be able to get a list of what files where generated
-  Need to be able to set where they get sent.
-Make it display svgs inside atom
-
-
+Need to handle errors
+Should show you errors as you type?
+Bug: Too many windows and emitters apparenlty - they think it is a memory leak
+It should allow you to generate all the svgs but only show the one you have selected
 It would be nice if the context menu only showed up on the right kind of file.
