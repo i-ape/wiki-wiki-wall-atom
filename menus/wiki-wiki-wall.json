@@ -4,6 +4,10 @@
       {
         "label": "Generate SVGs",
         "command": "wiki-wiki-wall:generate"
+      },
+      {
+        "label": "Show SVG",
+        "command": "wiki-wiki-wall:displaySVG"
       }
     ]
   },
