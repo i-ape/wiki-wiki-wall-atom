@@ -4,6 +4,14 @@
       {
         "label": "Generate SVGs",
         "command": "wiki-wiki-wall:generate"
+      },
+      {
+        "label": "Mark Shape/Layout",
+        "command": "wiki-wiki-wall:setMarker"
+      },
+      {
+        "label": "Unmark Shape/Layout",
+        "command": "wiki-wiki-wall:removeMarker"
       }
     ]
   },
@@ -17,6 +25,18 @@
             {
               "label": "Generate SVGs",
               "command": "wiki-wiki-wall:generate"
+            },
+            {
+              "label": "Clear All Markers",
+              "command": "wiki-wiki-wall:clearAllMarkers"
+            },
+            {
+              "label": "Mark Shape/Layout",
+              "command": "wiki-wiki-wall:setMarker"
+            },
+            {
+              "label": "Unmark Shape/Layout",
+              "command": "wiki-wiki-wall:removeMarker"
             }
           ]
         }

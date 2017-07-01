@@ -4,3 +4,17 @@ Should show you errors as you type?
 Bug: Too many windows and emitters apparenlty - they think it is a memory leak
 It should allow you to generate all the svgs but only show the one you have selected
 It would be nice if the context menu only showed up on the right kind of file.
+
+Markers:
+  Be able to set a marker on a shape/layout
+  Style the item that is marked
+  Ignore markers set on non shape/layout
+  Be able to remove a marker that is set on a specific item
+  have a clear all button that removes all of the markers
+  Have a bottom panel with a clear all button
+  The clear all button should be disabled if there are no markers
+  it should be enabled if there are markers
+  it should show a count of the number of markers
+  There should be a special option to disable the display of the All image
+  The generate should only show images for the markers that are set - or all if no markers are set
+  
