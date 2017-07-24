@@ -8,6 +8,13 @@
   "NOnactivationCommands": {
     "atom-workspace": "wiki-wiki-wall:toggle"
   },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
   "repository": "https://github.com/r26D/wiki-wiki-wall-atom",
   "license": "MIT",
   "engines": {
