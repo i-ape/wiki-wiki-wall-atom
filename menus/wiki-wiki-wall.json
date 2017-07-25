@@ -3,7 +3,7 @@
     "atom-text-editor": [
       {
         "label": "Generate SVGs",
-        "command": "wiki-wiki-wall:generate"
+        "command": "wiki-wiki-wall:generateSVGs"
       },
       {
         "label": "Mark Shape/Layout",
@@ -24,7 +24,7 @@
           "submenu": [
             {
               "label": "Generate SVGs",
-              "command": "wiki-wiki-wall:generate"
+              "command": "wiki-wiki-wall:generateSVGs"
             },
             {
               "label": "Clear All Markers",

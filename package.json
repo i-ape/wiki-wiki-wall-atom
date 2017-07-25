@@ -8,6 +8,9 @@
   "NOnactivationCommands": {
     "atom-workspace": "wiki-wiki-wall:toggle"
   },
+  "scripts": {
+    "prettier": "echo 'Applying prettier....' && prettier --write \"lib/**/*.js\" > /dev/null  && exit 0"
+  },
   "consumedServices": {
     "status-bar": {
       "versions": {

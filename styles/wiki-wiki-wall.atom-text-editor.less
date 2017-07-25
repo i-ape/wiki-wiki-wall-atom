@@ -1,0 +1,72 @@
+@import "syntax-variables";
+
+//Copyright (c) 2014
+// originally based on : https://github.com/r26D/decoration-example/blob/master/styles/decoration-example.atom-text-editor.less
+//Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+//The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+//THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
+
+// Using the git-diff colors so they are visible on your syntax theme.
+@red-color: @syntax-color-removed;
+@green-color: @syntax-color-added;
+@blue-color: @syntax-color-renamed;
+
+// Note: This file is specially named!
+// Less files with the name `*.atom-text-editor.less` will be loaded into the text-editor!
+//
+// Since these styles applies to the editor, this file needs to be loaded in the
+// context of the editor.
+
+// Very specific way to style the gutter numbers. Doing this so they show up
+// above the `.cursor-line` decorations applied when you select lines.
+//
+// A less specific way to select them would be
+//
+// `.gutter .line-number.gutter-green`{}
+//
+// But will be overridden by the `.cursor-line` decorations.
+atom-text-editor::shadow .gutter .line-number {
+  &.line-number-green {
+    color: #fff;
+    background-color: @green-color;
+  }
+
+  &.line-number-blue {
+    color: #fff;
+    background-color: @blue-color;
+  }
+
+  &.line-number-red {
+    color: #fff;
+    background-color: @red-color;
+  }
+}
+
+.line {
+  &.line-green {
+    background-color: @green-color;
+  }
+
+  &.line-blue {
+    background-color: @blue-color;
+  }
+
+  &.line-red {
+    background-color: @red-color;
+  }
+}
+
+// Remember: no default styling is provided for highlight decorations.
+.highlight-green .region {
+  background-color: @green-color;
+}
+
+.highlight-blue .region {
+  background-color: @blue-color;
+}
+
+.highlight-red .region {
+  background-color: @red-color;
+}
