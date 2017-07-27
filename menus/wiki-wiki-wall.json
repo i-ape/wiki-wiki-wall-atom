@@ -1,8 +1,9 @@
 {
   "context-menu": {
-    "atom-text-editor": [
+    "atom-text-editor[data-grammar='source wikiwikiwall']": [
+      {"type": "separator"},
       {
-        "label": "Generate SVGs",
+        "label": "<img src=''>Generate SVGs",
         "command": "wiki-wiki-wall:generateSVGs"
       },
       {
@@ -12,7 +13,8 @@
       {
         "label": "Unmark Shape/Layout",
         "command": "wiki-wiki-wall:removeMarker"
-      }
+      } ,
+      {"type": "separator"}
     ]
   },
   "menu": [
