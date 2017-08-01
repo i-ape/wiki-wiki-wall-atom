@@ -3,7 +3,7 @@
     "atom-text-editor[data-grammar='source wikiwikiwall']": [
       {"type": "separator"},
       {
-        "label": "<img src=''>Generate SVGs",
+        "label": "Generate SVGs",
         "command": "wiki-wiki-wall:generateSVGs"
       },
       {

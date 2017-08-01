@@ -1,9 +1,17 @@
-
 Need to handle errors
 Should show you errors as you type?
 Bug: Too many windows and emitters apparenlty - they think it is a memory leak
 It should allow you to generate all the svgs but only show the one you have selected
 It would be nice if the context menu only showed up on the right kind of file.
+
+Autocompleter - make it so it auto suggests stuff
+
+
+//Tis will let you set keymaps only for certain styles
+"atom-text-editor[data-grammar='source js']":
+"atom-text-editor[data-grammar='source css']":
+"atom-text-editor[data-grammar='source json']":
+"atom-text-editor[data-grammar='text html basic']":
 
 Markers:
   Be able to set a marker on a shape/layout

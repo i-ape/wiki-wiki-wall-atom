@@ -6,31 +6,31 @@
 'patterns': [
  {
  'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))\\b'
- 'name': 'numeric.wikiwikiwall'
+ 'name': 'wikiwikiwall.numeric'
  }
  {
  match: "(#).*$\\n?"
- name: "punctuation.definition.comment.wikiwikiwall"
+ name: "wikiwikiwall.punctuation.comment"
  }
  {
   match: "[A-Z][_0-9A-Z]+"
-  name: "alias.wikiwikiwall"
+  name: "wikiwikiwall.alias"
   }
   {
   begin:'"'
   end:'"'
-  name: "string.wikiwikiwall"
+  name: "wikiwikiwall.string"
   }
    {
       match: "@"
-      name: "numeric.wikiwikiwall"
+      name: "wikiwikiwall.numeric"
     }
   {
     match: "Variable|Shape|Connector|Layout|On|North|South|East|West|Face"
-    name: "keyword.wikiwikiwall"
+    name: "wikiwikiwall.keyword"
   }
   {
   match: "Tab|Slot|Hole|Centered|Xval|Yval|Zval|Polygon"
-  name: "modifier.wikiwikiwall"
+  name: "wikiwikiwall.modifier"
   }
 ]
