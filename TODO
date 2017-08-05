@@ -1,12 +1,11 @@
 Need to handle errors
 Should show you errors as you type?
-Bug: Too many windows and emitters apparenlty - they think it is a memory leak
 It should allow you to generate all the svgs but only show the one you have selected
-It would be nice if the context menu only showed up on the right kind of file.
-
-BUG: If you edit the preferences -it should update the package without requiring a reload
+Add generate SVGS to the bottom menu so no context needed
 BUG If you tell it to generate the svgs - need to save the file before rendering
 Autocompleter - make it so it auto suggests stuff
+
+If it is the right kind of file - auto generate svgs on save (https://github.com/mvila/on-save)
 
 Need a T helper tha depends on the definition of T
 T(1)
