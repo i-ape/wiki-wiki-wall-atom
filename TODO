@@ -2,10 +2,9 @@ Need to handle errors
 Should show you errors as you type?
 It should allow you to generate all the svgs but only show the one you have selected
 Add generate SVGS to the bottom menu so no context needed
-BUG If you tell it to generate the svgs - need to save the file before rendering
 Autocompleter - make it so it auto suggests stuff
 
-If it is the right kind of file - auto generate svgs on save (https://github.com/mvila/on-save)
+
 
 Need a T helper tha depends on the definition of T
 T(1)
