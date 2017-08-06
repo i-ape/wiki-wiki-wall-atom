@@ -18,10 +18,10 @@
       }
     },
     "autocomplete.provider": {
-       "versions": {
-         "2.0.0": "getAutoCompleteProviders"
-       }
-     }
+      "versions": {
+        "2.0.0": "getAutoCompleteProviders"
+      }
+    }
   },
   "repository": "https://github.com/r26D/wiki-wiki-wall-atom",
   "license": "MIT",
@@ -29,6 +29,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "atom-message-panel": "^1.3.0",
     "bytes": "^2.4.0",
     "etch": "0.9.0",
     "fs-plus": "^3.0.0",
