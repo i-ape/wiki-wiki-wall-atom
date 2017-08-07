@@ -2,7 +2,9 @@
 
 Features:
 =======================
+BUG If you remove the code that was used to make the mark - it keeps the mark :(
  BUG:internal/process/warning.js:24 (node:13714) Warning: Possible EventEmitter memory leak detected. 21 ipc-helpers-window-method-response listeners added. Use emitter.setMaxListeners() to increase limit
+BUG Generation spawns a bunch of bottom panels that don't delete when we generate again :(
 Show parse errors as you tyep
 Use Autocompleter to suggest what to type
 You should be able to select a bunch of markers and unmark them in bullk
