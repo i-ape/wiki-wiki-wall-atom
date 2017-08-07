@@ -2,6 +2,8 @@
 
 Features:
 =======================
+BUG If you close all the svgs - it removes the panel they use for search :(
+BUG The bottom panel doesn't stick to the file that generated it.
 BUG If you remove the code that was used to make the mark - it keeps the mark :(
  BUG:internal/process/warning.js:24 (node:13714) Warning: Possible EventEmitter memory leak detected. 21 ipc-helpers-window-method-response listeners added. Use emitter.setMaxListeners() to increase limit
 BUG Generation spawns a bunch of bottom panels that don't delete when we generate again :(
