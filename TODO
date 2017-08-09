@@ -2,6 +2,7 @@
 
 Features:
 =======================
+BUG The marks don't work right if you end up changing the line number
 BUG If you close all the svgs - it removes the panel they use for search :(
 BUG The bottom panel doesn't stick to the file that generated it.
 BUG If you remove the code that was used to make the mark - it keeps the mark :(
