@@ -18,10 +18,10 @@
       }
     },
     "autocomplete.provider": {
-       "versions": {
-         "2.0.0": "getAutoCompleteProviders"
-       }
-     }
+      "versions": {
+        "2.0.0": "getAutoCompleteProviders"
+      }
+    }
   },
   "repository": "https://github.com/r26D/wiki-wiki-wall-atom",
   "license": "MIT",
