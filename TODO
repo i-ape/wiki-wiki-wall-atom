@@ -1,36 +1,19 @@
-Need to handle errors
-Should show you errors as you type?
-Bug: Too many windows and emitters apparenlty - they think it is a memory leak
-It should allow you to generate all the svgs but only show the one you have selected
-It would be nice if the context menu only showed up on the right kind of file.
-
-Autocompleter - make it so it auto suggests stuff
 
 
-//Tis will let you set keymaps only for certain styles
-"atom-text-editor[data-grammar='source js']":
-"atom-text-editor[data-grammar='source css']":
-"atom-text-editor[data-grammar='source json']":
-"atom-text-editor[data-grammar='text html basic']":
+Features:
+=======================
+BUG The marks don't work right if you end up changing the line number
+BUG If you close all the svgs - it removes the panel they use for search :(
+BUG The bottom panel doesn't stick to the file that generated it.
+BUG If you remove the code that was used to make the mark - it keeps the mark :(
+ BUG:internal/process/warning.js:24 (node:13714) Warning: Possible EventEmitter memory leak detected. 21 ipc-helpers-window-method-response listeners added. Use emitter.setMaxListeners() to increase limit
+BUG Generation spawns a bunch of bottom panels that don't delete when we generate again :(
+Show parse errors as you tyep
+Use Autocompleter to suggest what to type
+You should be able to select a bunch of markers and unmark them in bullk
 
-Markers:
-  Be able to set a marker on a shape/layout
-  Style the item that is marked
+Add a simple navigation panal for all shapes/connectors, layouts (ala -  https://atom.io/packages/nav-panel)
+ Look at moving the panel at the bottom up since it is shared acorss managers
+ Marks should persist if you close atom and open it again later
 
-  Be able to remove a marker that is set on a specific item
-  Ignore markers set on non shape/layout
-
-  have a clear all button that removes all of the markers
-  Have a bottom panel with a clear all button 
-  The clear all button should be disabled if there are no markers
-  it should be enabled if there are markers
-  it should show a count of the number of markers
-  There should be a special option to disable the display of the All image
-  The generate should only show images for the markers that are set - or all if no markers are set
-
-
-  Look at https://atom.io/packages/nav-panel - Maybe we should offer some default rules to use this
-
-  Need to bring up a little panel at the bottom for the kind of file
-  Then have buttons to do things
 

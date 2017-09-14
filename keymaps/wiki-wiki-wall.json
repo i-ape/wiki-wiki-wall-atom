@@ -1,5 +1,7 @@
 {
   "atom-text-editor[data-grammar='source wikiwikiwall']": {
-    "ctrl-alt-o": "wiki-wiki-wall:toggle"
+    "ctrl-alt-o": "wiki-wiki-wall:generateSVGs",
+    "ctrl-alt-.": "wiki-wiki-wall:setMarker",
+    "ctrl-alt-,": "wiki-wiki-wall:removeMarker"
   }
 }

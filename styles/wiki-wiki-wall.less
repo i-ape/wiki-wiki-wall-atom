@@ -2,24 +2,63 @@
 //
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
+
+// Color Scheme
+// Base 16 Tomorrow Night (https://chriskempson.github.io/base16/)
+.base00-background { background-color: #1d1f21; } // Black 100
+.base01-background { background-color: #282a2e; } // Black 90
+.base02-background { background-color: #373b41; } // Black 75
+.base03-background { background-color: #969896; } // Black 60
+.base04-background { background-color: #b4b7b4; } // Black 45
+.base05-background { background-color: #c5c8c6; } // Black 30
+.base06-background { background-color: #e0e0e0; } // Black 15
+.base07-background { background-color: #ffffff; } // White
+.base08-background { background-color: #cc6666; } // Red
+.base09-background { background-color: #de935f; } // Orange
+.base0A-background { background-color: #f0c674; } // Yellow
+.base0B-background { background-color: #b5bd68; } // Green
+.base0C-background { background-color: #8abeb7; } // Aqua
+.base0D-background { background-color: #81a2be; } // Blue
+.base0E-background { background-color: #b294bb; } // Purple
+.base0F-background { background-color: #a3685a; } // Brown
+
+.base00 { color: #1d1f21; } // Black 100
+.base01 { color: #282a2e; } // Black 90
+.base02 { color: #373b41; } // Black 75
+.base03 { color: #969896; } // Black 60
+.base04 { color: #b4b7b4; } // Black 45
+.base05 { color: #c5c8c6; } // Black 30
+.base06 { color: #e0e0e0; } // Black 15
+.base07 { color: #ffffff; } // White
+.base08 { color: #cc6666; } // Red
+.base09 { color: #de935f; } // Orange
+.base0A { color: #f0c674; } // Yellow
+.base0B { color: #b5bd68; } // Green
+.base0C { color: #8abeb7; } // Aqua
+.base0D { color: #81a2be; } // Blue
+.base0E { color: #b294bb; } // Purple
+.base0F { color: #a3685a; } // Brown
+
 @import "ui-variables";
 @import "syntax-variables";
 
 .syntax--wikiwikiwall {
   .syntax--keyword {
-    color: #0A3A4A //#9AC836 //darkorange;
+    color: #b294bb; // Purple
   }
   .syntax--numeric {
-    color: #33A6B2; //lightgreen;
-    font-weight: 600;
+    color: #81a2be; // Blue
   }
   .syntax--alias {
-    color: #196674 //yellow;
+    color: #b5bd68; // Green
   }
   .syntax--modifier {
-    color: lightblue;
+    color: #8abeb7; // Aqua
   }
   .syntax--string {
-    color: #D0E64B //white;
+    color: #c5c8c6; // Black 30
+  }
+  .syntax--comment {
+    color: #969896; // Black 60
   }
 }
